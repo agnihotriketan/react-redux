@@ -1,4 +1,3 @@
-// src/store/store.ts
 import { configureStore } from "@reduxjs/toolkit";
 import { sportsReducer } from "./sportsReducer"; // Adjust import path as necessary
 

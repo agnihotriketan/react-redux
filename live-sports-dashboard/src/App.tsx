@@ -1,4 +1,3 @@
-// src/App.tsx
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
@@ -11,8 +10,7 @@ function App() {
       <Header />
       <div className="dashboard">
         <Sidebar />
-        <Scoreboard />
-        {/* MatchDetail can be integrated into Scoreboard or used as a modal/pop-up */}
+        <Scoreboard /> 
       </div>
     </div>
   );
